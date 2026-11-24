@@ -12,6 +12,13 @@ Depth-first spread: recolor the pixel, recurse into the four neighbors that stil
 
 **Complexity:** O(pixels) time, O(region) recursion depth worst case.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
